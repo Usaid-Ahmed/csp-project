@@ -11,7 +11,8 @@ __pycache__/
 *.pyc
 
 # SSL certificates
-certs/
+certs/*
+!certs/ca.pem
 
 # Flask runtime files
 instance/
